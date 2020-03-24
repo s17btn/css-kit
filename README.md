@@ -44,10 +44,10 @@ Depending on requirements for browser support, CSS Grids should be greatly prefe
 ## Naming Convention
 We're aiming to use the popular syntax of BEM for structuring our CSS. BEM makes creating modular styles and components easy. Read [Harry Robert's BEM Article](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) for a great primer on it's use and pros + cons.
 
-### Modules
-Each module has it's own file and is kept within the `css/modules` directory. The name of the file should mach the name of the module.
+### Components
+Each module has it's own file and is kept within the `css/components` directory. The name of the file should mach the name of the module.
 
-A module should be a reusable component on a page, e.g: a breadcrumb. Elements should only be selected by class, within a module all elements should be flat.
+A component should be a reusable element on a page, e.g: a breadcrumb. Elements should only be selected by class, within a module all elements should be flat.
 
 ```scss
 .Breadcrumb{
@@ -90,3 +90,5 @@ And it's markup
 </div>
 
 ```
+
+For example, this would easily allow us to change the anchor element to a button in the future.
