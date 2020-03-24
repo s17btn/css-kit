@@ -1,0 +1,62 @@
+{
+  "name": "@s17/css-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint": "^13.2.1",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "indentation": 2,
+      "string-quotes": "single",
+      "no-duplicate-selectors": true,
+      "color-hex-case": "lower",
+      "color-hex-length": "short",
+      "color-named": "never",
+      "selector-no-qualifying-type": true,
+      "selector-no-id": true,
+      "selector-no-combinator": true,
+      "selector-no-attribute": true,
+      "selector-combinator-space-after": "always",
+      "selector-attribute-quotes": "always",
+      "selector-attribute-operator-space-before": "never",
+      "selector-attribute-operator-space-after": "never",
+      "selector-attribute-brackets-space-inside": "never",
+      "declaration-block-trailing-semicolon": "always",
+      "declaration-no-important": true,
+      "declaration-colon-space-before": "never",
+      "declaration-colon-space-after": "always",
+      "number-leading-zero": "always",
+      "function-url-quotes": "always",
+      "font-weight-notation": "numeric",
+      "font-family-name-quotes": "always-where-required",
+      "comment-whitespace-inside": "always",
+      "comment-empty-line-before": "always",
+      "at-rule-no-vendor-prefix": true,
+      "rule-empty-line-before": "always",
+      "selector-pseudo-element-colon-notation": "single",
+      "selector-pseudo-class-parentheses-space-inside": "never",
+      "selector-no-vendor-prefix": true,
+      "selector-no-universal": true,
+      "selector-no-type": true,
+      "media-feature-range-operator-space-before": "always",
+      "media-feature-range-operator-space-after": "always",
+      "media-feature-parentheses-space-inside": "never",
+      "media-feature-name-no-vendor-prefix": true,
+      "media-feature-colon-space-before": "never",
+      "media-feature-colon-space-after": "always"
+    }
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-header": "^2.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0"
+  }
+}
